@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    text-decoration: none;
+}
+
+
+
+.logo{
+      display: flex;
+      justify-content: center;
+}
+
+ul,li,.menu1{
+      display: flex;
+      justify-content: center;
+      color: #103427;
+      font-weight: 500;
+      margin: 10px;
+}
+
+
+.menu1{
+      padding: 10px;
+      color: #103427;
+}
+
+
+
+
+
+body{
+      background-color: #E5DAC4 ;
+      /* display: flex; */
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      /* background: linear-gradient( rgba(255,255,255,0.92)),
+      url(..//img/logo-modified.png)#E5DAC4; */
+          
+}
+.menu {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      padding: 20px;
+}
+.menu a {
+      color: #103427;
+      padding: 25px 25px;
+      /* border-bottom: 2px solid #103427; */
+      border-radius: 8px;
+      text-align: center;
+      font-weight: 600;
+      transition: background-color 0.3s, color 0.3s;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.menu a:hover {
+      background-color: #1d3b2a;
+      color: #fff;
+}
+
+.contact{
+      display: flex;
+      justify-content: space-around;
+      color: #103427;
+      font-weight: 500;
+      position: relative;
+      top: 370px;
+      font-size: 14px;
+}
+
+.gsg24{
+      color: #103427
+}
+
+.social,a{
+      margin-left: 10px;
+      color: #103427;
+}
+
+.insta{
+      margin-right: 5px;
+}
+
+.email:hover{
+      color: blue;
+      cursor: pointer;
+}
+
+.Number:hover{
+      color: blue;
+      cursor: pointer;
+}
+
+.fa-instagram:hover{
+      transform: scale(1.5);
+      transition: 1s all;
+
+
+}
+
+.fa-facebook:hover{
+      transform: scale(1.5);
+      transition: 1s all;
+}
+
+.gsg24:hover{
+      color: blue;
+      cursor: pointer;
+}
+
+
+
+@media (max-width: 768px) {
+.menu {
+      grid-template-columns: repeat(2, 1fr);
+}
+.contact{
+      padding-bottom: 10px;
+}
+}
+
+@media (max-width: 480px){
+  .menu {
+   grid-template-columns: 1fr;
+}
+.contact{
+      padding-bottom: 10px;
+}
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
