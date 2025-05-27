@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration-line: none;
+}
+
+body {
+  font-family: "Poppins";
+  background: #e5dac4;
+  color: #000;
+}
+
+a{
+  color: #103427;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: space-between;
+  padding: 40px 20px;
+}
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.contact-info span {
+  flex: 1;
+  text-align: center;
+  padding: 5px 10px;
+}
+
+.contact-info .website {
+  text-decoration: underline;
+}
+
+.logo-container {
+  margin: 40px 0;
+}
+
+.logo {
+  width: 248px;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Butonat */
+.buttons {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.button {
+  background: #103427;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 14px 32px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background: #145d41;
+}
+
+/* Responsive për telefon */
+@media (max-width: 768px) {
+  .contact-info {
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .button {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+  }
+
+  .logo {
+    width: 180px;
+  }
+}

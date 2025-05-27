@@ -1,0 +1,94 @@
+.desktop-1,
+.desktop-1 * {
+  box-sizing: border-box;
+}
+.desktop-1 {
+  background: #e5dac4;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.info-gsg-24-ch {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: 92px;
+  top: 966px;
+  width: 156px;
+  height: 28px;
+}
+._41-44-865-28-85 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: 1164px;
+  top: 966px;
+  width: 183px;
+  height: 28px;
+}
+.www-gsg-24-ch {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: underline;
+  position: absolute;
+  left: 628px;
+  top: 966px;
+  width: 156px;
+  height: 28px;
+}
+.logo-1 {
+  width: 248px;
+  height: 293px;
+  position: absolute;
+  left: 596px;
+  top: 170px;
+  object-fit: cover;
+  aspect-ratio: 248/293;
+}
+.rectangle-7 {
+  background: #103427;
+  border-radius: 8px;
+  width: 251px;
+  height: 50px;
+  position: absolute;
+  left: 405px;
+  top: 462px;
+}
+.ber-uns {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: 486px;
+  top: 472px;
+}
+.rectangle-8 {
+  background: #103427;
+  border-radius: 8px;
+  width: 251px;
+  height: 50px;
+  position: absolute;
+  left: 784px;
+  top: 462px;
+}
+.unsere-produkte {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: 827px;
+  top: 472px;
+}
