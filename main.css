@@ -11,6 +11,34 @@ body {
   color: #000;
 }
 
+.social-media {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.social-media a {
+  margin: 0 10px;
+  font-size: 24px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-media a:hover {
+  color: #007bff;
+}
+
+.site-footer {
+  margin-top: 40px;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  border-top: 1px solid #ddd;
+}
+
+
+
 a{
   color: #103427;
 }
