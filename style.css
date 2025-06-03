@@ -37,6 +37,32 @@ body {
   border-top: 1px solid #ddd;
 }
 
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #222;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  z-index: 1000;
+  display: none;
+}
+.cookie-banner button {
+  background: #00cc66;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin-left: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.cookie-banner a {
+  color: #00ccff;
+  text-decoration: underline;
+}
+
 
 
 a{
