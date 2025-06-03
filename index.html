@@ -33,9 +33,29 @@
   <p><strong>GSG24</strong> &copy; 2025</p>
 </footer>
 
-<div id="cookie-banner" class="cookie-banner">
-  <p>Wir verwenden Cookies, um das Erlebnis auf dieser Site zu verbessern. <a href="/privacy-policy.html">Erfahren Sie mehr</a>.</p>
-  <button onclick="acceptCookies()">Prano</button>
+<div id="cookie-consent" class="cookie-consent hidden">
+  <div class="cookie-box">
+    <h2>Wir verwenden Cookies</h2>
+    <p>
+      Wir verwenden Cookies, um die Funktionalität der Website sicherzustellen, für Analysen und um Ihr Erlebnis zu verbessern.
+Sie können auswählen, welche Arten Sie akzeptieren möchten.
+      <a href="#" target="_blank">Mehr lesen</a>
+    </p>
+    <div class="cookie-buttons">
+      <button onclick="acceptAllCookies()">Akzeptiere alles</button>
+      <button onclick="openSettings()">Konfiguration</button>
+    </div>
+  </div>
+
+  <div id="cookie-settings" class="cookie-settings hidden">
+    <h3>Cookie-Einstellungen</h3>
+    <label><input type="checkbox" checked disabled> Notwendig (obligatorisch)</label><br>
+    <label><input type="checkbox" id="analyticsCookies"> Analytik</label><br>
+    <label><input type="checkbox" id="marketingCookies"> Marketing</label><br>
+    <div class="cookie-buttons">
+      <button onclick="saveCookieSettings()">Einstellungen speichern</button>
+    </div>
+  </div>
 </div>
 
 <script src="script.js"></script>

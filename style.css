@@ -37,30 +37,46 @@ body {
   border-top: 1px solid #ddd;
 }
 
-.cookie-banner {
+.cookie-consent {
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
   background: #222;
-  color: white;
-  padding: 15px;
+  color: #fff;
+  padding: 20px;
+  z-index: 9999;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.cookie-box {
+  max-width: 600px;
   text-align: center;
-  z-index: 1000;
-  display: none;
 }
-.cookie-banner button {
+.cookie-box a {
+  color: #0af;
+}
+.cookie-buttons button {
+  margin: 10px;
+  padding: 10px 20px;
   background: #00cc66;
-  color: white;
   border: none;
-  padding: 8px 16px;
-  margin-left: 15px;
-  cursor: pointer;
+  color: #fff;
   border-radius: 5px;
+  cursor: pointer;
 }
-.cookie-banner a {
-  color: #00ccff;
-  text-decoration: underline;
+.cookie-buttons button:nth-child(2) {
+  background: #555;
+}
+.cookie-settings {
+  margin-top: 15px;
+  background: #333;
+  padding: 15px;
+  border-radius: 8px;
+}
+.hidden {
+  display: none;
 }
 
 
